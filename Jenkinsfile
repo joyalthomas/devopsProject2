@@ -8,6 +8,15 @@ pipeline{
 
 	stages {
 
+
+		stage('docker logout') {
+
+                        steps {
+                                sh 'docker logout'
+                        }
+                }
+
+
 		stage('Build') {
 
 			steps {
