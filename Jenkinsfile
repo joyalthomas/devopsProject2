@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t joyalthomas/devopsProject2:latest .'
+				sh 'docker build -t joyalthomas97/devopsProject2:latest .'
 			}
 		}
 
@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push joyalthomas/devopsProject2:latest'
+				sh 'docker push joyalthomas97/devopsProject2:latest'
 			}
 		}
 	}
