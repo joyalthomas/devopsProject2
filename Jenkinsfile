@@ -20,7 +20,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t new joelthomas97/devopsproject2:latest .'
+				sh 'docker build -t  joelthomas97/devopsproject2:latest .'
 			}
 		}
 
